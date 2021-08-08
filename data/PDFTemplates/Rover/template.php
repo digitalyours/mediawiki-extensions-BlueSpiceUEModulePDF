@@ -8,11 +8,11 @@ return [
 
 	/* A brief description. This information may be used in the user interface */
 	'info' => [
-		'name'      => 'LHRoverstufe',
-		'author'    => 'rover',
-		'copyright' => 'Roverstufe in der dpsg',
-		'url'       => 'https://www.rover.de',
-		'description'      => 'Default Template der Roverstufe'
+		'name'      => 'BlueSpice',
+		'author'    => 'Hallo Welt!',
+		'copyright' => 'Hallo Welt! GmbH',
+		'url'       => 'http://www.hallowelt.com',
+		'description'      => 'This is the default BlueSpice PDF Template'
 	],
 
 	/**
@@ -41,8 +41,8 @@ return [
 			'../common/fonts/DejaVuSansMono-BoldOblique.ttf'
 		],
 		'IMAGE' => [
-			'images/rover-header.png',
-			'images/rover-page-background.png'
+			'images/bs-header.jpg',
+			'images/bs-page-background.png'
 		]
 	],
 
@@ -51,23 +51,23 @@ return [
 	 */
 	'messages' => [
 		'en' => [
-			'desc'        => 'This is the default PDFTemplate of rover.de for single article export.',
+			'desc'        => 'This is the default PDFTemplate of BlueSpice for single article export.',
 			'exportdate'  => 'Export:',
 			'page'        => 'Page ',
 			'of'          => ' of ',
-			'disclaimer'  => 'Wiki rover.de'
+			'disclaimer'  => 'This document was created with BlueSpice'
 		],
 		'de' => [
-			'desc'        => 'Dies ist das Standard-PDFTemplate für das LH der Roverstufe für den Export einzelner Artikel.',
+			'desc'        => 'Dies ist das Standard-PDFTemplate von BlueSpice für den Export einzelner Artikel.',
 			'exportdate'  => 'Ausgabe:',
 			'page'        => 'Seite ',
 			'of'          => ' von ',
-			'disclaimer'  => 'aus dem Wiki der Roverstufe' ],
+			'disclaimer'  => 'Dieses Dokument wurde erzeugt mit BlueSpice' ],
 		'de-formal' => [
-			'desc'        => 'Dies ist das Standard-PDFTemplate für das LH der Roverstufe für den Export einzelner Artikel.',
+			'desc'        => 'Dies ist das Standard-PDFTemplate von BlueSpice für den Export einzelner Artikel.',
 			'exportdate'  => 'Ausgabe:',
 			'page'        => 'Seite ',
 			'of'          => ' von ',
-			'disclaimer'  => 'aus dem Wiki der Roverstufe' ],
+			'disclaimer'  => 'Dieses Dokument wurde erzeugt mit BlueSpice' ],
 	]
 ];
